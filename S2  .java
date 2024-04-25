@@ -17,3 +17,13 @@ public class ExampleApplication {
 		return new MyFirstClass();
 	}
 }
+
+package com.vijay.example;
+
+public class MyFirstClass {
+
+    public String sayHello(){
+        return "Hello from the MyFirstClass";
+    }
+}
+
