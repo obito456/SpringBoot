@@ -29,6 +29,10 @@ public class Config {
     public Car car2(){
         return new Car("black audi");
     }
+    @Bean
+    public Car car3(){
+        return new Car("red Ferrari");
+    }
 }
 
 package com.example.vijay;
