@@ -46,6 +46,6 @@ public class Showroom {
     public Car car;
 
     public void repair(){
-        System.out.println("your car "+car.name+" is repaired");
+        System.out.println("your car "+car.display()+" is repaired");
     }
 }
