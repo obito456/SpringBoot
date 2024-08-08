@@ -37,17 +37,14 @@ public class Car {
 }
 package com.example.vijay;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import lombok.AllArgsConstructor;
 
+@AllArgsConstructor
 @Service
 public class Showroom {
     public Car car;
 
-    @Autowired
-    public Showroom(Car car){
-        this.car=car;
-    }
     public void repair(){
         System.out.println("your car "+car.name+" is repaired");
     }
