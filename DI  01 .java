@@ -27,7 +27,7 @@ public class SolutionApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SolutionApplication.class, args);
 		Car car1=new Car();
-		Person Person=new Person(car1);
-		Person.favourite("Ferrari");
+		Person person=new Person(car1);
+		person.favourite("Ferrari");
 	}
 }
